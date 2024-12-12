@@ -27,6 +27,4 @@ ENV RUN_CMD_ARGS="--http --http.addr=0.0.0.0 --ws --ws.addr=0.0.0.0"
 
 EXPOSE 18545 18546 5050 5050/udp
 
-VOLUME /var/sonic
-
 ENTRYPOINT ["/entrypoint.sh"]
